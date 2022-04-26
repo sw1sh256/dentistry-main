@@ -1,0 +1,29 @@
+header{width: 150;}
+#logo{width: 150px;}
+li{float: left;list-style: none; margin: 45px; font-size: 25px; font-weight: bolder;}
+ul{float: right; width: 60%;}
+.head{text-decoration: none;}
+
+
+#home{background-image: url(image/doctor.jpg);background-repeat: no-repeat;background-size: cover;}
+
+#intro{font-size: 45px;font-family: cursive; color: white; font-weight: bolder;}
+#intro-p{font-size: 32px;font-family: cursive;color: white;font-weight: bold;}
+
+#pig{width: 210px;}
+#brush{width: 215px;}
+#date{width: 210px;}
+
+#preventive{position: absolute;left: 90px;top: 885px}
+#endodoncy{position: absolute; left: 250px;top: 885px;}
+#appointment{position: absolute;left: 470px;top: 885px;}
+
+footer{text-align: center;color: black; font-size: 15px;height: 55px;clear: both;}
+
+.social-media{width: 15px;}
+
+#carla-photo{float: right;width: 45%;}
+
+#mission{font-size: 32px;margin-top: 350px; width: 45%;float: left;font-style: oblique;}
+
+#services{font-size: 20px;text-align: center;}

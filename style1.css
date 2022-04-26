@@ -1,0 +1,27 @@
+
+#gallery{margin: 0; padding: 0; box-sizing: border-box;}
+.gal-list{display: table-cell;}
+img{
+	height: 800px;width: 1000px;
+}
+#gal-div{width:1000px ;height: 800px;
+overflow: hidden;position: relative;margin-left: 300px;margin-top: 200px;}
+
+
+#gal{position: absolute; animation-name: slide;animation-duration: 45s;animation-iteration-count: infinite;}
+
+@keyframes slide{
+
+	0%{left: -1000px;}
+	10%{left: -2000px;}
+	20%{left: -3000px;}
+	30%{left: -4000px;}
+	40%{left: -5000px;}
+	50%{left: -6000px;}
+	60%{left: -7000px;}
+	70%{left: -8000px;}
+	80%{left: -9000px;}
+	90%{left: -10000px;}
+	100%{left: 0px;}
+
+}
